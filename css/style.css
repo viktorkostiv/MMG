@@ -540,6 +540,8 @@ textarea.contact-input{
         position: relative;
   	height: 100vh;
   	overflow: hidden;
+	touch-action: none;
+        -ms-touch-action: none;
     }
 }
 @media (max-width:768px){
