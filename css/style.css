@@ -537,7 +537,9 @@ textarea.contact-input{
         transform: translateX(0%) scale(1,1);
     }
     body.active{
-        overflow: hidden;
+        position: relative;
+  	height: 100%;
+  	overflow: hidden;
     }
 }
 @media (max-width:768px){
