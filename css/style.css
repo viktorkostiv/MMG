@@ -515,6 +515,7 @@ textarea.contact-input{
         margin-bottom: 10%;
     }
     .nav{
+	display: none;
         visibility: hidden;
         transform: translateX(100vw);
         transition: all .3s ease;
@@ -530,9 +531,9 @@ textarea.contact-input{
         position: absolute;
         flex-direction: column;
         justify-content: space-between;
-        display: flex;
     }
     .nav.active{
+	display: flex;
         visibility: visible;
         transform: translateX(0);
     }
