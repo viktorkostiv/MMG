@@ -567,6 +567,7 @@ textarea.contact-input{
         display: block;
     }
     .contact-item{
+	text-align: end;
         width: 100%;
         margin: 10px auto;
         flex-direction: row;
