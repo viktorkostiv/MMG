@@ -518,7 +518,7 @@ textarea.contact-input{
         visibility: hidden;
         transform: translateX(100%) scale(0,1);
         transition: all 0.5s ease;
-        padding: 40px;
+        padding: 40px 40px 30%;
         z-index: 9999;
         margin: 0;
         top: 0;
