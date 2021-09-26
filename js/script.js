@@ -1,8 +1,10 @@
 document.getElementById('menuOn').addEventListener('click', () => {
   document.querySelector('.nav').classList.add('active');
+  document.querySelector('body').classList.add('active');
 });
 document.getElementById('menuOff').addEventListener('click', () => {
   document.querySelector('.nav').classList.remove('active');
+  document.querySelector('body').classList.remove('active');
 });
 $(document).ready(function () {
     $('.head-slider').slick({
