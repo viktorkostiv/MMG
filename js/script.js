@@ -21,7 +21,7 @@ $(document).ready(function () {
         arrows: true,
         responsive: [
             {
-              breakpoint: 992,
+              breakpoint: 993,
               settings: {
                 slidesToShow: 1,
                 arrows: false,
@@ -39,19 +39,19 @@ $(document).ready(function () {
         arrows: false,
         responsive: [
             {
-              breakpoint: 992,
+              breakpoint: 993,
               settings: {
                 slidesToShow: 3,
               }
             },
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                   slidesToShow: 2,
                 }
             },
             {
-                breakpoint: 425,
+                breakpoint: 426,
                 settings: {
                   slidesToShow: 1,
                 }
@@ -65,7 +65,7 @@ $(document).ready(function () {
         arrows: true,
         responsive: [
             {
-              breakpoint: 992,
+              breakpoint: 993,
               settings: {
                 slidesToShow: 1,
                 arrows: false,
